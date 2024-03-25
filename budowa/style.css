@@ -1,0 +1,35 @@
+body {
+  background-color: gray;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: 40px;
+}
+h3 {
+  color: orange;
+}
+h1 {
+  margin: 15px;
+  text-align: center;
+  font-size: 30pt;
+  color: orange;
+}
+table,
+td {
+  border: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+  border-color: pink;
+}
+A:active {
+  color: red;
+}
+A:link {
+  color: purple;
+}
+A:visited {
+  color: aqua;
+}
+A:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}

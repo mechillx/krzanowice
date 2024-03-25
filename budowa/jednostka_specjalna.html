@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jednostka Specjalna</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="description" content="Oto moja pierwsza strona na zajęciach" />
+    <meta name="keywords" content="szkoła, lekcje, temat, nauka, html" />
+    <meta name="author" content="Michał Kretek" />
+  </head>
+  <body>
+    <h1>Jednostka centralna</h1>
+    <hr />
+    <a href="#1">Płyta główna</a> | <a href="#2">Procesor</a> |
+    <a href="#3">pamięć wewnętrzna</a> | <a href="#4">pamięć zewnętrzna</a> |
+    <a href="#5">karty rozszerzeń</a> | <a href="#6">obudowa</a>
+    <hr />
+    <h3 id="1">Płyta główna</h3>
+    <p>Podstawowe parametry płyty głównej:</p>
+    <ul>
+      <li>rodzaj zamontowanego Chipsetu;</li>
+      <li>dla procesorów firmy Intel;</li>
+      <li>dla procesor AMD;</li>
+      <li>rodzaj zamontowanego układu BIOS (Award, Ami, Phoenix);</li>
+      <li>częstotliwość zegara magistarali systemowej (zewnętrzna)(FSB);</li>
+      <li>pamięć Cache - obecnie montowana wewnątrz procesora;</li>
+      <li>rodzaj gniazda dla poszczególnych procesorów (Solt/Socket);</li>
+      <li>
+        ilość gniazd modułów pamięci RAM oraz maksymalna ilość pamięci możliwej
+        zainstalowania w systemie;
+      </li>
+      <li>
+        ilość wolnych gniazd dla kart rozszerzających (ISA, PCI, Dual PCI, AGP,
+        PCI Express x1, Express x16);
+      </li>
+      <li>max. częstotliwość taktowania procesora;</li>
+      <li>złącza IDE, Serial ATA;</li>
+      <li>
+        porty i złącza: COM, LPT, USB 1.1, USB 2.0, IEEE 1394 (Inaczej Firewire,
+        iLink), SCSI.
+      </li>
+    </ul>
+    <p>Tab.1. Gniazda umieszczone z tyłu komputera:</p>
+    <table>
+      <tr>
+        <td>PS/2</td>
+        <td>Gniazdo klawiatury i myszy.</td>
+      </tr>
+      <tr>
+        <td>COM 1, COM 2</td>
+        <td>Złącza szeregowe.</td>
+      </tr>
+      <tr>
+        <td>LPT 1</td>
+        <td>Złącze równoległe.</td>
+      </tr>
+      <tr>
+        <td>USB</td>
+        <td>
+          Uniwersalna szyna danych - możliwe podłączenie każdedgo urządzenia
+          wysposażonego w to złącze.
+        </td>
+      </tr>
+    </table>
+    <img src="images/gniazda.gif" />
+    <p>Rys.1. Rozmieszczenie gniazd wej/wyj z tyłu komputera.</p>
+    <hr />
+    <h3 id="2">Procesor</h3>
+    <p>Rodzaje procesorów:</p>
+    <ul>
+      <li>Intel: Pentium III, Pentium IV, Celeron, Celeron II;</li>
+      <li>AMD: Atlon, Duron, Athlon XP +, Athlon 64;</li>
+    </ul>
+    <p>Podstawowe parametry procesorów:</p>
+    <ul>
+      <li>zwenętrzna częstotliwość taktowania procesora (FSB);</li>
+      <li>
+        wewnętrzna częstotliwość taktowania procesora (zazwyczaj jest to
+        pomnożona zwenętrzna częstotliwość pracy, np. Pentium III 667 - cz.zewn.
+        to 133 MHz, wewnętrzna 667 MHz = 5* 133 MHz) - częstotliwość, z jaką
+        pracuje jądro procesora;
+      </li>
+      <li>ilość pamięci Cache L1 i L2;</li>
+      <li>
+        zestaw dostępnych rozkazów (oprócz standardowych dodatkowo MMX, SSE,
+        3D-NOW);
+      </li>
+      <li>rodzaj zastosowanej obudowy i wyprowadzeń.</li>
+    </ul>
+    <p>Najważniejsze elementy procesora:</p>
+    <ul>
+      <li>CPU - Cantral Procesor Unit (całośc);</li>
+      <li>
+        ALU - Arithmetic Logic Unit (główna jednostka wykonawcza, moduł
+        arytmetyczno-logiczny);
+      </li>
+      <li>
+        FPU - Floating Point Unit (jednostka zmiennoprzecinkowa, koprocesor
+        arytmetyczny);
+      </li>
+      <li>
+        SIMD - Single Instruction Multiple Data (wykonywannie tej samej
+        instrukcji na wielu danych jednocześnie);
+      </li>
+      <li>Cache L1, L2 - szybka pamięc wewnętrzna.</li>
+    </ul>
+    <hr />
+    <h3 id="3">Pamięć wewnętrzna</h3>
+    <p>RAM - pamięc operacyjna (robocza) komputera.</p>
+    <p>Rodzaje najczęsciej stosowanej pamięci RAM:</p>
+    <ul>
+      <li>
+        SRAM - statyczna pamięć RAM (nie wymaga odświeżania); pamięć bardzo
+        szybka, ale również bardzo kosztowana; stosowana na pamięć Cache;
+      </li>
+      <li>
+        DRAM - dynamicznna pamięć RAM (co pewien czas trzeba w nniej odświeżać
+        innformacje) - moduły FPM i SIMM;
+      </li>
+      <li>
+        SDRAM - pamięć DRAM wyposażona w interfejs synchroniczny; dzięki temu
+        wewnętrzne sygnały taktujące generowane są na podstawie zegara
+        systemowego (moduły DIMM);
+      </li>
+      <li>
+        DDR SDRAM - (Daouble Data Rate SDRAM) - sygnał przesyłany jest na obydwu
+        zboczach sygnały zegarowego, co podwaja prędkość działania tych pamięci;
+      </li>
+      <li>RDRAM (Rambus Direct RAM) - bardzo szybka pamięc RAM.</li>
+    </ul>
+    <p>ROM - Pamięć stała, tylko do odczytywania.</p>
+    <p>
+      Informacja jest przechowywana stale nie ulega zniszczeniu ani zmianie.
+      Pojemność taj pamięci jest zazywczaj ograniczona. Przechowuje się w niej
+      informacje o systemie operacyjnym niezbędne do podjęcia pracy po
+      wyłączeniu zasilania. Pamięć ROM nie może być modyfikowana, można z niej
+      tylko odczytywać dane. Z tego też względu służą do przechowywania
+      kluczowych informacji jak np. konfiguracja BIOS'u czy modemu.
+    </p>
+    <hr />
+    <h3 id="4">Pamięć zwenętrzna (pamięć masowa)</h3>
+    <p>Służy do przechowywania dużych ilości danych;</p>
+    <p>Przykłady:</p>
+    <ul>
+      <li>
+        stacje dyskietek (FDD - Flopy Disc Drive) - służy do zapisu i odczytu
+        dysków elastycznych o odpowiedniej pojemności (360kB; 720kB; 1,2MB;
+        1,44MB);
+      </li>
+      <li>
+        dyski twarde (HDD - Hard Disc Drive) - urządzenie służące do zapisu i
+        odczytu gromadzonych informacji; pojemność mierzy się odpowiednio w MG i
+        GB; dyski twarde są podstawowym naśnikiem danych w komputerze;
+        umieszczone są zwykle na stałe w obudowie komputera; składają się z
+        kilku lub kilkunastu płaskich, okrągłych dysków, których powierzchnie
+        służą do przechowywania informacji.
+      </li>
+      <li>
+        napęd CD-ROM - napęd służący tylko do odczytu dysków CD, CD-R, CD-RW,
+        CD-Audio itd.; pojemność standardowej płyty CD wynosi 650MB (dziś
+        700MB);
+      </li>
+      <li>
+        napęd DVD-ROM - napęd służący tylko do odczytu dysków DVD-ROM, możliwe
+        jest na nim również odtwarzanie płyt CD.
+      </li>
+    </ul>
+    <hr />
+    <h3 id="5">Karty rozszerzeń</h3>
+    <p>
+      Karty umożliwiające rozszerzenie podstawowych funkcji komputera o kolejne,
+      wzbogacające jego działanie.
+    </p>
+    <p>Przykłady:</p>
+    <ul>
+      <li>
+        Karta graficzna - karta rozszerzeń, umiejscawiana na płycie głównej
+        poprzez gniazdo AGP ( coraz rzadziej PCI, wyłącznie w bardzo starych
+        modelach ISA); odpowiada w komputerze za obraz wyświetlany przez
+        monitor; karty graficzne różnią się miedzy sobą szybkością pracy,
+        wielkością pamięci RAM, wyświetlaną rozdzielczością obrazu, liczbą
+        dostępnych kolorów oraz częstotliwością odświeżania obrazu; karta
+        graficzna składa się z czterech podstawowoych elementów: płytki
+        drukowanej, głównego procesora, pamięci wiedo i układu RAMDAC (który
+        często jest zintegrowany z procesorem w jednej obudowie);
+      </li>
+      <li>karta dźwiękowa - umożliwa odważanie dźwięków przez komputer;</li>
+      <li>
+        modem - pozwala na dołączenie komputera z siecią Internet poprzez
+        stacjonarną linię telefoniczną;
+      </li>
+      <li>
+        karta sieciowa - umożliwia połączenie komputera z innym komputerem lub z
+        siecią komputerową.
+      </li>
+    </ul>
+    <hr />
+    <h3 id="6">Obudowa komputera</h3>
+    <p>
+      Jest jak gdyby skóra komputera. W jej wnętrzu umieszczana jest jednostka
+      centralna wraz z kartami rozszerzeń. Rodzaj obudowy może zadecydować o
+      rodzaju płyty głównej umieszczonej wewnątrz niej, a co za tym idzie
+      również o innych parametrach komputera ( rodzaj procesora, ilość pamięci,
+      czy karta rozszerzeń). Rozmieszczenie elementów na płycie głównej jest
+      standaryzowane (np. ATX).
+    </p>
+    <img src="images/obudowy.gif" />
+  </body>
+</html>
