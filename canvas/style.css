@@ -1,0 +1,25 @@
+	body {
+	margin: 10%;
+	font-family:arial;
+	background-color:rgb(66,66,66);
+	}
+	h1 {
+	color: rgb(166,166,166);
+	}
+	img{
+	float:right;
+	padding:2%;
+	}
+	p{
+	font-size:10pt;
+	color:#abc;
+	text-aling:justify;
+	}
+	span{
+	font-weight:bold;
+	color:rgb(106,226,212);
+	}
+	P.normalny
+	{
+	font-family: Helvetica; font-size: 10pt
+		
