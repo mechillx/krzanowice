@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia i interfejsy - HTML5 </title>
+ <script type = "text/javascript">
+function setup() {
+var canvas = document.getElementById('myCanvas');
+if (canvas.getContext) { //jeśli przeglądarka wspiera canvas
+var ctx = canvas.getContext('2d'); //zmienna określająca kontekst graficzny
+//…tu można rysować…
+}
+ctx.rotate(0.7); //obrót o kąt podany w radianach
+ctx.font = "bold 25px Comic Sans MS";
+ctx.fillText('michal kretek',110, 90); //obrócony tekst
+ctx.strokeRect(50, 50, 290, 80); 
+ 
+ 
+}
+ </script>
+</head>
+<body onload = "setup();">
+<canvas id = "myCanvas" width = "350" height = "300"></canvas>
+
+</body> 
+</html>
