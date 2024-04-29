@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia i interfejsy - HTML5 </title>
+ <script type = "text/javascript">
+function setup() {
+var canvas = document.getElementById('myCanvas');
+if (canvas.getContext) { //jeśli przeglądarka wspiera canvas
+var ctx = canvas.getContext('2d'); //zmienna określająca kontekst graficzny
+//…tu można rysować…
+var grad = ctx.createLinearGradient(0, 0, 200, 200);
+grad.addColorStop(0, 'rgb(0 , 255, 0)'); 
+}
+grad.addColorStop(1, 'rgba(0, 0, 255, 0.5)');
+ctx.fillStyle = grad;
+ctx.fillRect(10,10,180,180);
+var radgrad = ctx.createRadialGradient(115,65,15,122,70,40);
+//gradient radialny; x1,y1,r1 – okrąg
+//początkowy; x2,y2,r2 – okrąg
+// końcowy
+radgrad.addColorStop(0, '#F3F201');
+radgrad.addColorStop(0.8, '#E5C700');
+radgrad.addColorStop(1, 'rgba(300,90,10,10)');
+ctx.fillStyle = radgrad;
+ctx.fillRect(0,0,200,200); 
+ 
+ 
+}
+ </script>
+</head>
+<body onload = "setup();">
+<canvas id = "myCanvas" width = "200" height = "200"></canvas>
+
+</body> 
+</html>

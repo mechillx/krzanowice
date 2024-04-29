@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedia i interfejsy - HTML5 </title>
+ <script type = "text/javascript">
+function setup() {
+var canvas = document.getElementById('myCanvas');
+if (canvas.getContext) { //jeśli przeglądarka wspiera canvas
+var ctx = canvas.getContext('2d'); //zmienna określająca kontekst graficzny
+//…tu można rysować…
+}
+ctx.fillStyle = 'rgb(100,100,100)'; //rodzaj wypełnienia
+ctx.fillRect(75,40,120,80); //prostokąt wypełniony
+ctx.strokeRect(50,100,70,90); //prostokąt niewypełniony
+ctx.clearRect(150,50,30,30); //wyczyszczenie prostokąta 
+}
+ </script>
+</head>
+<body onload = "setup();">
+<canvas id = "myCanvas" width = "220" height = "230"></canvas>
+
+</body> 
+</html>
